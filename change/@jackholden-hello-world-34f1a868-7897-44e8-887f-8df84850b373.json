@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "made a change",
+  "packageName": "@jackholden/hello-world",
+  "email": "Jack.Holden@Vitality.co.uk",
+  "dependentChangeType": "patch"
+}
