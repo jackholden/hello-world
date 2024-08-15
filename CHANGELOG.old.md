@@ -1,5 +1,11 @@
 # @jackholden/hello-world
 
+## 1.0.1
+
+### Patch Changes
+
+- fix something sudifi
+
 ## 1.0.0
 
 ### Major Changes

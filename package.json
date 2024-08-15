@@ -1,16 +1,21 @@
 {
   "name": "@jackholden/hello-world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package example",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node example/index.js"
+    "start": "node example/index.js",
+    "release-changesets": "npx changeset verion && npm run build && npm publish",
+    "change": "beachball change",
+    "checkchange": "beachball check",
+    "release": "beachball publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
+    "beachball": "^2.43.1",
     "typescript": "^5.5.4"
   },
   "engines": {
