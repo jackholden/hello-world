@@ -1,5 +1,11 @@
 # @jackholden/hello-world
 
+## 1.1.0
+
+### Minor Changes
+
+- Changes a few bits and bobs, summary etc blah blah
+
 ## 1.0.1
 
 ### Patch Changes
